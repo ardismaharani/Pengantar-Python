@@ -7,7 +7,7 @@ from wordcloud import WordCloud
 import plotly.express as px
 
 # Menginput data
-df = pd.read_csv(r"C:\Users\ASUS\Downloads\sentimentdataset.csv", sep=None, engine="python")
+df = pd.read_csv("sentimentdataset.csv", sep=None, engine="python")
 
 # Membersihkan kolom
 df.columns = df.columns.str.strip()
